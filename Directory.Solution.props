@@ -19,4 +19,8 @@
     <PackageProjectUrl>https://github.com/sontarru/DI</PackageProjectUrl>
     <PackageTags></PackageTags>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <RootNamespace>Sontar.DI</RootNamespace>
+  </PropertyGroup>
 </Project>
