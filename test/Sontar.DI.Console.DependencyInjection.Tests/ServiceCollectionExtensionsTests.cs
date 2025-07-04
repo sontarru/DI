@@ -1,6 +1,4 @@
-﻿using AwesomeAssertions;
-
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace Sontar.DI;
 
