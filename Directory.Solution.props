@@ -1,0 +1,22 @@
+<!-- Properties not overritable on template update -->
+<Project>
+  <!-- Version -->
+  <PropertyGroup>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+
+  <!-- Assembly & Package properties -->
+  <PropertyGroup>
+    <Product>DI</Product>
+    <Description>DI</Description>
+    <Authors>sontar.ru</Authors>
+    <Company>sontar.ru</Company>
+    <Copyright>© sontar.ru, 2025</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryName>DI</RepositoryName>
+    <RepositoryUrl>https://github.com/sontarru/DI</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/sontarru/DI</PackageProjectUrl>
+    <PackageTags></PackageTags>
+  </PropertyGroup>
+</Project>
