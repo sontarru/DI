@@ -5,7 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 /// <summary>
 /// Represents the system console.
 /// </summary>
-public sealed class ConsoleAdapter : IConsoleText, IConsoleBinary, IConsoleKeyboard
+public sealed class ConsoleAdapter : IConsole, IConsoleText, IConsoleBinary, IConsoleKeyboard
 {
     /// <inheritdoc/>
     public TextReader In => Console.In;
