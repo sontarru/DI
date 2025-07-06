@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Sontar.DI.Guids.Abstractions\Sontar.DI.Guids.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

@@ -5,7 +5,7 @@ namespace Sontar.DI;
 public class ServiceCollectionExtensionsTests
 {
     [Fact]
-    public void AddConsole_Registers_proper_services()
+    public void AddConsole_Adds_Expected_Services()
     {
         ServiceCollection services = new();
 

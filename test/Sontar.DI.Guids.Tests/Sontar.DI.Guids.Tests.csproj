@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Sontar.DI.Guids.Abstractions\Sontar.DI.Guids.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Sontar.DI.Guids.DependencyInjection\Sontar.DI.Guids.DependencyInjection.csproj" />
+  </ItemGroup>
+</Project>
