@@ -18,5 +18,6 @@ public static class ServiceCollectionExtensions
     public static IServiceCollection AddConsole(this IServiceCollection services) =>
         services.AddTransient<IConsoleText, ConsoleAdapter>()
             .AddTransient<IConsoleBinary, ConsoleAdapter>()
-            .AddTransient<IConsoleKeyboard, ConsoleAdapter>();
+            .AddTransient<IConsoleKeyboard, ConsoleAdapter>()
+            .AddTransient<IConsole, ConsoleAdapter>();
 }

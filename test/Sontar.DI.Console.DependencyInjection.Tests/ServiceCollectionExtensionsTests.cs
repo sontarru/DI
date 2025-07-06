@@ -25,5 +25,10 @@ public class ServiceCollectionExtensionsTests
             sd.ServiceType == typeof(IConsoleKeyboard) &&
             sd.ImplementationType == typeof(ConsoleAdapter) &&
             sd.Lifetime == ServiceLifetime.Transient);
+
+        services.Should().Contain(sd =>
+            sd.ServiceType == typeof(IConsole) &&
+            sd.ImplementationType == typeof(ConsoleAdapter) &&
+            sd.Lifetime == ServiceLifetime.Transient);
     }
 }
